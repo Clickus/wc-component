@@ -5,6 +5,9 @@ import vueSetupExtend from "vite-plugin-vue-setup-extend";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 4424
+  },
   plugins: [vue(), vueSetupExtend()],
   /**别名 */
   resolve: {

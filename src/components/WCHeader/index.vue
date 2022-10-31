@@ -6,7 +6,12 @@
     </div>
   </div>
 </template>
-<script lang="ts" setup name="WCHeader">
+<script lang="ts">
+export default {
+  name: "WCHeader",
+};
+</script>
+<script lang="ts" setup>
 defineProps({
   title: {
     type: String,
